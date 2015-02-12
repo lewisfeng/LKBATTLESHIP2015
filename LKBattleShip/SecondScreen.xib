@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tbu-8u-mNf" customClass="SecondScreenView">
+            <rect key="frame" x="0.0" y="-1" width="1280" height="721"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG1280720.png" id="6Py-OF-ud2">
+                    <rect key="frame" x="0.0" y="0.0" width="1280" height="720"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LKBATTLESHIP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fYC-fm-KZF">
+                    <rect key="frame" x="441" y="8" width="399" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="55"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Lbl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KOF-fr-NfE">
+                    <rect key="frame" x="126" y="61" width="399" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="33"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COPYRIGHT 2015 LEWIS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Iw1-NX-9uC">
+                    <rect key="frame" x="441" y="683" width="399" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="wt2-Ud-jxF">
+                    <rect key="frame" x="638" y="66" width="5" height="600"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="Pnw-2d-5yJ">
+                    <rect key="frame" x="75" y="119" width="500" height="500"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.39072655029999998" green="0.57621254229999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Destroyer.png" id="olu-Mg-9Gp">
+                    <rect key="frame" x="49" y="627" width="100" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Battleship.png" id="kBn-x8-Onl">
+                    <rect key="frame" x="152" y="627" width="100" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AircraftCarrier.png" id="Rde-Ro-7Hd">
+                    <rect key="frame" x="275" y="627" width="100" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cruiser.png" id="w7P-9e-S53">
+                    <rect key="frame" x="398" y="627" width="100" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Submarine.png" id="X0Y-rH-DDj">
+                    <rect key="frame" x="501" y="632" width="92" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Lbl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YdG-ph-g1f">
+                    <rect key="frame" x="759" y="61" width="399" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="33"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="8T1-k6-LYn">
+                    <rect key="frame" x="708" y="119" width="500" height="500"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.39072655029999998" green="0.57621254229999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Destroyer.png" id="tyT-Mf-bX3">
+                    <rect key="frame" x="682" y="627" width="100" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Battleship.png" id="KD6-7w-X6O">
+                    <rect key="frame" x="785" y="627" width="100" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AircraftCarrier.png" id="gI0-PN-Gc4">
+                    <rect key="frame" x="908" y="627" width="100" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cruiser.png" id="7RL-Wo-XAG">
+                    <rect key="frame" x="1030" y="627" width="100" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Submarine.png" id="OWB-3d-GsS">
+                    <rect key="frame" x="1134" y="632" width="92" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossMarkBig.png" id="pFG-hn-Psh">
+                    <rect key="frame" x="80" y="627" width="39" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossMarkBig.png" id="juS-nV-nay">
+                    <rect key="frame" x="183" y="627" width="39" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossMarkBig.png" id="Q2e-GA-6ff">
+                    <rect key="frame" x="306" y="627" width="39" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossMarkBig.png" id="vRl-dh-NNv">
+                    <rect key="frame" x="429" y="627" width="39" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossMarkBig.png" id="B2R-kp-Y8h">
+                    <rect key="frame" x="528" y="627" width="39" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossMarkBig.png" id="HJW-VJ-krD">
+                    <rect key="frame" x="713" y="627" width="39" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossMarkBig.png" id="O3V-NU-RtS">
+                    <rect key="frame" x="816" y="627" width="39" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossMarkBig.png" id="Uzg-u4-AD2">
+                    <rect key="frame" x="1061" y="627" width="39" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossMarkBig.png" id="Sfa-qf-Pbf">
+                    <rect key="frame" x="1161" y="627" width="39" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CrossMarkBig.png" id="5Tz-3p-BH5">
+                    <rect key="frame" x="939" y="627" width="39" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lewis IS THE WINNER !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7V6-r7-DF3">
+                    <rect key="frame" x="0.0" y="113" width="1280" height="555"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="99"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <size key="shadowOffset" width="5" height="5"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bgImgView" destination="6Py-OF-ud2" id="GZm-1A-aI5"/>
+                <outlet property="mapView" destination="Pnw-2d-5yJ" id="dx8-hF-Kpq"/>
+                <outlet property="nameLbl" destination="KOF-fr-NfE" id="KHi-01-eGs"/>
+                <outlet property="opponentMapView" destination="8T1-k6-LYn" id="PKY-tT-cZ5"/>
+                <outlet property="opponentNameLbl" destination="YdG-ph-g1f" id="eso-jo-1gV"/>
+                <outlet property="winnerLabel" destination="7V6-r7-DF3" id="fqi-kF-s27"/>
+                <outletCollection property="shipImgViews" destination="Rde-Ro-7Hd" id="Xsa-HC-Bie"/>
+                <outletCollection property="shipImgViews" destination="kBn-x8-Onl" id="tgm-wc-VDk"/>
+                <outletCollection property="shipImgViews" destination="w7P-9e-S53" id="txI-hj-Rvj"/>
+                <outletCollection property="shipImgViews" destination="olu-Mg-9Gp" id="PsK-EK-Chr"/>
+                <outletCollection property="shipImgViews" destination="X0Y-rH-DDj" id="y13-aZ-XQ4"/>
+                <outletCollection property="opponentShipImgViews" destination="gI0-PN-Gc4" id="0Sk-g4-JJf"/>
+                <outletCollection property="opponentShipImgViews" destination="KD6-7w-X6O" id="2MA-Dk-eYc"/>
+                <outletCollection property="opponentShipImgViews" destination="7RL-Wo-XAG" id="ONf-Ob-SEN"/>
+                <outletCollection property="opponentShipImgViews" destination="tyT-Mf-bX3" id="1LC-mc-SsO"/>
+                <outletCollection property="opponentShipImgViews" destination="OWB-3d-GsS" id="ojb-iE-xe9"/>
+                <outletCollection property="crossMarks" destination="Q2e-GA-6ff" id="l7d-BZ-X40"/>
+                <outletCollection property="crossMarks" destination="juS-nV-nay" id="MUO-tr-shk"/>
+                <outletCollection property="crossMarks" destination="vRl-dh-NNv" id="IJJ-sB-end"/>
+                <outletCollection property="crossMarks" destination="pFG-hn-Psh" id="wrJ-5p-1gt"/>
+                <outletCollection property="crossMarks" destination="B2R-kp-Y8h" id="XKP-7e-rgH"/>
+                <outletCollection property="opponentsCrossMarks" destination="5Tz-3p-BH5" id="6ht-En-UjU"/>
+                <outletCollection property="opponentsCrossMarks" destination="O3V-NU-RtS" id="lvy-pD-tdD"/>
+                <outletCollection property="opponentsCrossMarks" destination="Uzg-u4-AD2" id="54H-ed-I58"/>
+                <outletCollection property="opponentsCrossMarks" destination="HJW-VJ-krD" id="CHM-09-vTa"/>
+                <outletCollection property="opponentsCrossMarks" destination="Sfa-qf-Pbf" id="1bv-C2-Xf7"/>
+            </connections>
+            <point key="canvasLocation" x="659" y="192.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AircraftCarrier.png" width="180" height="180"/>
+        <image name="BG1280720.png" width="1280" height="720"/>
+        <image name="Battleship.png" width="181" height="181"/>
+        <image name="CrossMarkBig.png" width="24" height="24"/>
+        <image name="Cruiser.png" width="181" height="181"/>
+        <image name="Destroyer.png" width="181" height="181"/>
+        <image name="Submarine.png" width="181" height="181"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
